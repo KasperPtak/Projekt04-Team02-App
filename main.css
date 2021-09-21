@@ -4,9 +4,23 @@
     box-sizing: border-box;
  }
 
-.container {
+ ::root {
 
+    --offWhite: #e3f1f0;
+    --darkGreen: #00454E;
+    --yellow: #fae256;
+    --blue: #4267b2;
+    --grey: #AAC6C7;
+    --red: #BC2222;
     
+ }
+
+.wrap {
+
+    margin: auto;
+    max-width: 95%;
+    background-color: hotpink;
+
 
 }
 
@@ -16,6 +30,13 @@
      text-align: center;
 
  }
+
+ .img-fluid {
+    width: 100%;
+
+ }
+
+
 
  /* #endregion */
 
