@@ -1,44 +1,113 @@
+@import url("https://use.typekit.net/afz5wtp.css");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: proxima-nova, sans-serif;
  }
 
- ::root {
+ :root {
 
+    /* colours */
     --offWhite: #e3f1f0;
+    --offBlack: #111111;
     --darkGreen: #00454E;
     --yellow: #fae256;
     --blue: #4267b2;
     --grey: #AAC6C7;
     --red: #BC2222;
+
+    /* Fonts */
+    --font: proxima-nova, sans-serif; 
+    /* font-weight: 700 */
+
     
+ }
+
+ body {
+     background-color: var(--grey);
  }
 
 .wrap {
 
     margin: auto;
     max-width: 95%;
-    background-color: hotpink;
-
+    /* background-color: hotpink; */
 
 }
 
  /* #region globale klasser */
 
  .text-center {
-     text-align: center;
+    text-align: center;
 
- }
+}
 
- .img-fluid {
-    width: 100%;
+.img-fluid {
+   width: 100%;
 
- }
+}
+
+.btn {
+    padding: 10px 50px;
+    box-shadow: 6px 9px 17px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+    background-color: var(--offBlack);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* #endregion */
 
 
 
- /* #endregion */
+
+/* #region forside/loginside */
+
+.login-heading {
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+.login-buttons {
+
+    margin: 20vw;
+
+}
+
+.login-logo {
+    margin: 20% auto ;
+    width: 80%;
+
+}
+
+.btn-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    list-style: none;
+
+}
+
+.btn-facebook {
+
+    background-color: var(--blue);
+
+}
+
+
+/* #endregion */
+
 
 
 
