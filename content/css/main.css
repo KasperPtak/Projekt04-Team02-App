@@ -20,6 +20,8 @@
 
     /* Fonts */
     --font: proxima-nova, sans-serif; 
+    --bold: 700; 
+    --regular: 400; 
     /* font-weight: 700 */
 
     
@@ -29,15 +31,15 @@
      background-color: var(--grey);
  }
 
-.wrap {
+ /* #region globale klasser */
+
+ .wrap {
 
     margin: auto;
     max-width: 95%;
     /* background-color: hotpink; */
 
 }
-
- /* #region globale klasser */
 
  .text-center {
     text-align: center;
@@ -46,6 +48,43 @@
 
 .img-fluid {
    width: 100%;
+
+}
+
+
+/* #endregion */
+
+
+
+
+/* #region forside/loginside */
+
+.login-logo {
+    margin: 20% auto 0 auto;
+    width: 50%;
+
+}
+
+.login-heading {
+    font-size: 36px;
+    font-weight: var(--bold);
+    font-family: var(--font);
+    line-height: 1;
+}
+
+.login-buttons {
+    margin: 15vw;
+
+}
+
+.btn-list {
+    margin-top: 130%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    list-style: none;
 
 }
 
@@ -63,41 +102,6 @@
     color: white;
 }
 
-
-/* #endregion */
-
-
-
-
-/* #region forside/loginside */
-
-.login-heading {
-    margin-top: 5%;
-    font-size: 1.5rem;
-    font-weight: 700;
-    
-}
-
-.login-buttons {
-
-    margin: 20vw;
-
-}
-
-.login-logo {
-    margin: 20% auto ;
-    width: 80%;
-
-}
-
-.btn-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 20vh;
-    list-style: none;
-
-}
 
 .btn-facebook {
 

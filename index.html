@@ -2,15 +2,32 @@
 <html lang="en" dir="ltr">
 
 <head>
+
+  <!-- #region meta tags / telefon app links -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1,  user-scalable=no">
+  <meta name="description" content="Loginside til ucl's Social Planner. App til socialt samvær">
+  <meta name="theme-color" content="#AAC6C7">
+  <meta name="author" content="Kasper Ptak, Maria Solsikke, Trine Mørup, Nanna Tubaek">
+  <meta name="keywords" content="HTML, CSS, JavaScript, App, Education">
 
-  <title>Ucl Social Planner</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+  
+  <link rel="apple-touch-icon" sizes="72x72" href="./content/gfx/appicons/72x72appikon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./content/gfx/appicons/114x114appikon.png">
+  <link rel="apple-touch-icon" href="./content/gfx/appicons/57x57appikon.png">
+  <link rel="apple-touch-startup-image" href="./content/gfx/ucl.png">
+  
+  <link rel="icon" type="image/png" href="./content/gfx/favicon.png" />
 
-  <link rel="stylesheet" href="main.css">
-  <script src="main.js" defer></script>
+<!-- #endregion -->
 
+  <title>Social Planner</title>
+
+  <link rel="stylesheet" href="./content/css/main.css">
+  <script src="./content/js/main.js" defer></script>
 
 </head>
 
@@ -18,31 +35,32 @@
 
   <div class="wrap">
 
-    <section class="text-center login-heading ">
-      <h1>UCL Social Planner</h1>
-    </section>
 
     <section class="login-logo">
-      <img class="img-fluid" src="https://www.fillmurray.com/1000/1000" alt="Logo">
+      <img class="img-fluid" src="./content/imgs/1000x594.png" alt="Logo">
+    </section>
+
+    <section class="text-center login-heading ">
+      <h1>Social Planner</h1>
     </section>
 
     <section class="login-buttons">
 
       <ul class="btn-list text-center">
         <li class="btn btn-facebook">
-          <a href="" >Facebook Login</a>
-          
+          <a href="./content/views/login.html">Facebook Login</a>
+
         </li>
         <li class="btn">
-          <a href="" >Login</a>
-          
+          <a href="./content/views/login.html">Login</a>
+
         </li>
         <li class="btn">
-          <a href="" >Registrer</a>
-          
+          <a href="./content/views/register.html">Registrer</a>
+
         </li>
       </ul>
-      
+
     </section>
 
 
