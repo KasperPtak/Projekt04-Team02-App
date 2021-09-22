@@ -1,0 +1,60 @@
+
+/* #region forside/loginside */
+
+body {
+    background-color: var(--grey);
+}
+
+.login-logo {
+    margin: 20% auto 0 auto;
+    width: 50%;
+
+}
+
+.login-heading {
+    font-size: 36px;
+    font-weight: var(--bold);
+    font-family: var(--font);
+    line-height: 1;
+}
+
+.login-buttons {
+    margin: 15vw;
+
+}
+
+.btn-list {
+    margin-top: 130%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    list-style: none;
+
+}
+
+.btn {
+    padding: 10px 50px;
+    box-shadow: 6px 9px 17px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+    background-color: var(--offBlack);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn-facebook {
+
+    background-color: var(--blue);
+
+}
+
+
+/* #endregion */
+

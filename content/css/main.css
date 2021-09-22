@@ -27,10 +27,6 @@
     
  }
 
- body {
-     background-color: var(--grey);
- }
-
  /* #region globale klasser */
 
  .wrap {
@@ -45,74 +41,89 @@
     text-align: center;
 
 }
+ .text-left {
+    text-align: left;
+
+}
+ .text-right {
+    text-align: right;
+
+}
 
 .img-fluid {
    width: 100%;
 
 }
 
+.clear {
+    clear: both;
+}
+
+a {
+    color: var(--offBlack);
+    text-decoration: none;
+}
+
+.regular {
+    font-weight: var(--regular);
+}
+
+/* #endregion */
+
+/* #region top ikoner (indstillinger og tilbageknap) */
+
+.top-icons {
+    margin: 5% auto;
+    
+}
+
+
+
+.back-arrow {
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    color: var(--offBlack);
+}
+
+.settings {
+    float: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
 
 /* #endregion */
 
 
+/* #region footer/menu */
 
-
-/* #region forside/loginside */
-
-.login-logo {
-    margin: 20% auto 0 auto;
-    width: 50%;
-
+footer {
+    margin-bottom: 80px;
 }
 
-.login-heading {
-    font-size: 36px;
-    font-weight: var(--bold);
-    font-family: var(--font);
-    line-height: 1;
-}
+.navbar {
+    padding: 5px;
 
-.login-buttons {
-    margin: 15vw;
-
-}
-
-.btn-list {
-    margin-top: 130%;
+    position: fixed;
+    bottom: 0;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 20vh;
-    list-style: none;
-
-}
-
-.btn {
-    padding: 10px 50px;
-    box-shadow: 6px 9px 17px 0px rgba(0,0,0,0.75);
-    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
     
-    background-color: var(--offBlack);
-
+    width: 100%;
+    
+    background-color: var(--darkGreen);
+    
 }
 
-.btn a {
-    text-decoration: none;
-    color: white;
+.navbar a {
+    color: var(--offWhite);
+    padding: 6px;
 }
-
-
-.btn-facebook {
-
-    background-color: var(--blue);
-
-}
-
 
 /* #endregion */
-
-
-
 
 
