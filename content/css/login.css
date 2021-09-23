@@ -1,4 +1,19 @@
 body {
-  background-color: #E3F1F0;
-  
+  /*background-color: #E3F1F0; */
+  width: 100%;
+  background-color: #AAC6C7 ;
+    
+}
+
+h1 {
+    font-family: var (--font); 
+    font-weight: 700;
+}
+
+img {
+    width: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: none;
+   
 }
