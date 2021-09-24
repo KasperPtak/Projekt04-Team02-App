@@ -50,9 +50,28 @@
 
 }
 
+.width100 {
+    width: 100%;
+}
+
+
+.login-logo {
+    margin: 20% auto 0 auto;
+    width: 50%;
+
+}
+
 .img-fluid {
    width: 100%;
 
+}
+
+.login-heading {
+    font-size: 36px;
+    font-weight: var(--bold);
+    font-family: var(--font);
+    line-height: 1;
+    color: var(--darkGreen);
 }
 
 .clear {

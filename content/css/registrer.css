@@ -1,0 +1,49 @@
+main {
+    margin: 20vh auto 0 auto;
+    width: 80%;
+   
+    
+
+}
+
+body{
+    background-color: var(--offWhite);
+
+}
+
+
+main .inputs input{
+    margin: 6px auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+
+}
+
+
+
+.checkbox {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+
+.knap {
+    margin-top: 40px;
+    background-color: var(--darkGreen);
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    list-style: none;
+
+
+ 
+ 
+ }
+ .knap a {
+     color: var(--offWhite);
+  }

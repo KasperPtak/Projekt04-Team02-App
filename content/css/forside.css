@@ -5,18 +5,9 @@ body {
     background-color: var(--grey);
 }
 
-.login-logo {
-    margin: 20% auto 0 auto;
-    width: 50%;
 
-}
 
-.login-heading {
-    font-size: 36px;
-    font-weight: var(--bold);
-    font-family: var(--font);
-    line-height: 1;
-}
+
 
 .login-buttons {
     margin: 15vw;
