@@ -47,3 +47,9 @@ main .inputs input{
  .knap a {
      color: var(--offWhite);
   }
+
+  #stjerne {
+      font-size: 12px;
+      color: red;
+      display: none;
+  }

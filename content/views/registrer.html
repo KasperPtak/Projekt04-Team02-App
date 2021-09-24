@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/registrer.css">
+    <script src="../js/registrer.js" defer></script>
 
   
 
@@ -33,10 +34,11 @@
     </section>
 
     <main>
+      <p id="stjerne"> * Alle felter skal udfyldes</p>
       <section class="inputs">
-        <input class="width100" placeholder="E-mail" type="email" required>
-        <input class="width100" placeholder="Adgangskode" type="password" required>
-        <input class="width100" placeholder="Bekræft adgangskode" type="password" required>
+        <input class="width100" id="email-input" placeholder="E-mail" type="email" required>
+        <input class="width100" id="adgangskodeInput" placeholder="Adgangskode" type="password" required>
+        <input class="width100" id="bekraeft-adgangskode-input" placeholder="Bekræft adgangskode" type="password" required>
 
 
     <div class="checkbox">
@@ -45,15 +47,15 @@
         </div>
 
         <section >
-          <ul class="loginknap ">
+          <ul class="loginknap">
             <li class="knap">
-              <a href="">Opret Bruger</a>
+              <a onClick="opret()" href="#">Opret Bruger</a>
             </li>
           </ul>
   
         </section>
 
-   
+   </main>
 
 </body>
 </html>
