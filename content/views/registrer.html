@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1,  user-scalable=no">
-    <meta name="description" content="Loginside til ucl's Social Planner. App til socialt samvær">
-    <meta name="theme-color" content="#AAC6C7">
-    <meta name="author" content="Kasper Ptak, Maria Solsikke, Trine Mørup, Nanna Tubaek">
-    <meta name="keywords" content="HTML, CSS, JavaScript, App, Education">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1,  user-scalable=no">
+  <meta name="description" content="Loginside til ucl's Social Planner. App til socialt samvær">
+  <meta name="theme-color" content="#AAC6C7">
+  <meta name="author" content="Kasper Ptak, Maria Solsikke, Trine Mørup, Nanna Tubaek">
+  <meta name="keywords" content="HTML, CSS, JavaScript, App, Education">
 
-    <title>registrer</title>
 
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/registrer.css">
-    <script src="../js/registrer.js" defer></script>
+  <title>registrer</title>
 
-  
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/registrer.css">
+  <script src="../js/registrer.js" defer></script>
+
+
 
 </head>
+
 <body>
 
 
   <div class="wrap">
-    
-    
-    <section class="login-logo"> 
-      <img class="img-fluid" src="../imgs/1000x594.png" alt="logo"> 
+
+
+    <section class="login-logo">
+      <img class="img-fluid" src="../imgs/1000x594.png" alt="logo">
     </section>
 
-    <section class="login-heading text-center"> 
+    <section class="login-heading text-center">
       <h1>Social Planner</h1>
     </section>
 
@@ -38,24 +40,29 @@
       <section class="inputs">
         <input class="width100" id="email-input" placeholder="E-mail" type="email" required>
         <input class="width100" id="adgangskodeInput" placeholder="Adgangskode" type="password" required>
-        <input class="width100" id="bekraeft-adgangskode-input" placeholder="Bekræft adgangskode" type="password" required>
+        <input class="width100" id="bekraeft-adgangskode-input" placeholder="Bekræft adgangskode" type="password"
+          required>
 
 
-    <div class="checkbox">
-      <input class="width100 " type="checkbox" placeholder="Adgangskode">
+        <div class="checkbox">
+          <input class="width100" id="checkbox" type="checkbox" placeholder="Adgangskode">
           <label class="width100 " for="agreements">Jeg har læst og accepteret brugerbetingelserne</label>
         </div>
+      </section>
 
-        <section >
+        <section>
           <ul class="loginknap">
             <li class="knap">
-              <a onClick="opret()" href="#">Opret Bruger</a>
+              <a onclick="opret()" href="#">Opret Bruger</a>
             </li>
           </ul>
-  
         </section>
 
-   </main>
+  
 
+  </main>
+
+  </div>
 </body>
+
 </html>
