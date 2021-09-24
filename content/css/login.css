@@ -9,14 +9,6 @@ h1 {
     font-family: var (--font); 
     font-weight: 700;
 }
-
-img {
-    width: 100px;
-    padding: 20px;
-    display: grid;
-    
-   
-}
  
 main {
     margin: 20vh auto 0 auto;
