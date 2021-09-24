@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel ="stylesheet" href="../css/login.css">
 
+    <script src="../js/login.js" defer></script>
+
 </head>
 <body>
   <div class="wrap">
@@ -33,19 +35,18 @@
 
     <main>
       <section class="inputs">
-        <input class="width100" placeholder="E-mail" type="email" required>
-        <input class="width100" placeholder="Adgangskode" type="text" required>
+        <input class="width100" id="loginEmail" placeholder="E-mail" type="email" required>
+        <input class="width100" id="loginPassword" placeholder="Adgangskode" type="text" required>
               
-        
       </section>
       
       <section >
         <ul class="loginknap ">
           <li class="knap">
-            <a href="">Login</a>
+            <a onclick="checklogin()" href="#">Login</a>
           </li>
           <li class="knap">
-            <a href="../views/registrer.html">Registrer</a>
+            <a href="#"  >Registrer</a>
           </li>
         </ul>
 
