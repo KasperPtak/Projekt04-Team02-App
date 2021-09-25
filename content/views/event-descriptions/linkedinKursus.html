@@ -1,17 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <!-- #region meta tags / telefon app links -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1,  user-scalable=no">
+  <meta name="description" content="Loginside til ucl's Social Planner. App til socialt samvær">
+  <meta name="theme-color" content="#AAC6C7">
+  <meta name="author" content="Kasper Ptak, Maria Solsikke, Trine Mørup, Nanna Tubaek">
+  <meta name="keywords" content="HTML, CSS, JavaScript, App, Education">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+
+  <link rel="apple-touch-icon" sizes="72x72" href="./content/gfx/appicons/72x72appikon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./content/gfx/appicons/114x114appikon.png">
+  <link rel="apple-touch-icon" href="./content/gfx/appicons/57x57appikon.png">
+  <link rel="apple-touch-startup-image" href="./content/gfx/ucl.png">
+
+  <link rel="icon" type="image/png" href="./content/gfx/favicon.png" />
+
+  <!-- #endregion -->
+
+  <title>Fotokursus</title>
+
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/begivenhed-beskrivelser.css">
+  <script src="../../js/deltag.js" defer></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <h1>linkedInkursus</h1>
+
+  <div class="wrap">
+
+    <section class="top-icons">
+
+        <div class="settings">
+            <a href="../indstillinger.html">
+                <p>Indstillinger</p>
+            </a>
+            <a href="../indstillinger.html" class="text-right">
+                <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="back-arrow">
+            <a href="javascript:history.back()" class="text-right">
+                <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:history.back()">
+                <p>Tilbage</p>
+            </a>
+        </div>
+
+        <div class="clear"></div>
+    </section>
+
+    <main>
+
+      <section class="heading-image">
+        <img class="img-fluid" src="../../imgs/linkedin.jpg" alt="fredagsbar billede til event beskrivelse">
+        <div class="heading-btn">
+          <!-- <div class="heading-btn"></div> -->
+          <a id="participateBtn" href="#" class=" btn" onclick="colorChange()">
+            Deltag
+          </a>
+        </div>
+      </section>
+
+      <section class="heading-text">
+
+        <h1 class="event-h1">
+          LinkedIn Kursus
+        </h1>
+
+        <h4 class="regular event-date">
+          14-09-2021
+        </h4>
+
+      </section>
+
+      <section class="bread-text">
+        <p>
+          tekst til liunkedinkursus
+
+        </p>
+      </section>
+
+      <section class="participants">
+        <p id="participantNumber">  </p>
+      </section>
+
+    </main>
+
+  </div>
+
+
+  <footer>
+    <nav class="navbar">
+
+        <a href="../../../dine-begivenheder.html">
+            <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a href="../event-pages/skole-begivenheder.html">
+            <i class="fas fa-book fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a href="../event-pages/fritids-begivenheder.html">
+            <i class="fa fa-user-friends fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a href="../event-pages/fredagsbar-begivenheder.html">
+            <i class="fa fa-wine-glass-alt fa-2x" aria-hidden="true"></i>
+        </a>
+
+    </nav>
+</footer>
+
 </body>
 
 </html>
-
-
