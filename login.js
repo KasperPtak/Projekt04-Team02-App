@@ -28,11 +28,11 @@ function checklogin() {
 
                 case emails[0]:
                     alert(emails[0] + " er nu logget ind")
-                    window.location = "../views/dineBegivenheder.html";
+                    window.location = "../views/event-pages/dine-Begivenheder.html";
                     break;
                 case emails[1]:
                     alert(emails[1] + " er nu logget ind")
-                    window.location = "../views/dineBegivenheder.html";
+                    window.location = "./dine-begivenheder.html";
                     break;
                 case emails[2]:
                     alert(emails[2] + " er nu logget ind")

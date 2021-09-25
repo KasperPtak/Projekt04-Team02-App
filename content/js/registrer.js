@@ -16,7 +16,7 @@ function opret(){
     }
     else {
         stjerne.style.display = "none"
-        // window.location =
+        alert("Du er nu oprettet")
     }
 }
 
