@@ -60,10 +60,15 @@
     border-radius: 10px;
     
     background-color: var(--darkGreen);
+    color: var(--offWhite);
     
 }
 
-.btn {
+.btn-logout {
+    padding: 10px 80px;
+    border-radius: 10px;
+
+    background-color: red;
     color: var(--offWhite);
 }
 
@@ -108,6 +113,81 @@ a {
     
 }
 
+#indstillinger {
+    display: none;
+    position: fixed;
+    z-index: 1;
+
+    background-color: var(--grey);
+    
+    opacity: .93;
+    height: 60vh;
+    width: 100%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    margin-top: 31vh;
+
+    /* transition: settings 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s; */
+
+}
+
+#indstillinger h2  {
+    display: flex;
+    margin: 10px auto 20px auto;
+    justify-content: center;
+}
+
+#close-indstillinger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 22px;
+
+}
+
+/* 
+@keyframes settings {
+
+    from {
+        top: -100vh;
+    }
+
+    to {
+        top: 0;
+    }
+} */
+
+.close-settings {
+    position: absolute;
+    bottom: 20px;
+
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.settings-label {
+    width: 80%;
+
+    display: flex;
+    margin: auto;
+    
+}
+
+.settings-options {
+    width: 80%;
+
+    display: flex;
+    margin: 0 auto 20px auto;
+
+}
 
 
 .back-arrow {

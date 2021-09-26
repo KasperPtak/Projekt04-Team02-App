@@ -28,6 +28,8 @@
 
   <link rel="stylesheet" href="../../css/main.css">
   <link rel="stylesheet" href="../../css/begivenhed-beskrivelser.css">
+
+  <script src="../../js/settings.js" defer></script>
   <script src="../../js/deltag.js" defer></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,29 +40,90 @@
 
 <body>
 
+  <section id="indstillinger">
+
+    <div id="close-indstillinger">
+      <h1 onclick="closeSettings()">X</h1>
+    </div>
+
+    <h2>Indstillinger</h2>
+
+
+    <label for="sprog" class="settings-label"> Vælg sprog </label>
+    <select class="settings-options">
+      <option value="Sprog" selected disabled> Sprog </option>
+      <option value="Sprog"> Dansk </option>
+      <option value="Sprog"> English </option>
+    </select>
+
+    <label for="sprog" class="settings-label"> Notifikationer </label>
+    <select class="settings-options">
+      <option value="Sprog" selected disabled> Notifikationer </option>
+      <option value="Sprog"> Ja tak </option>
+      <option value="Sprog"> Nej tak </option>
+    </select>
+
+    <label for="sprog" class="settings-label"> Sortering </label>
+    <select class="settings-options">
+      <option value="Sprog" selected disabled> Sortering</option>
+      <option value="Sprog"> Sortér efter deltagelse </option>
+      <option value="Sprog"> Sortér efter dato </option>
+      <option value="Sprog"> Sortér efter deltagelse </option>
+      <option value="Sprog"> Sortér efter pris (stigende) </option>
+      <option value="Sprog"> Sortér efter pris (faldende) </option>
+    </select>
+
+    <label for="sprog" class="settings-label"> Uddannelse </label>
+    <select class="settings-options">
+      <option value="Sprog" selected disabled> Uddannelse</option>
+      <option value="Sprog"> MultimedieDesigner </option>
+      <option value="Sprog"> Sygeplejerske </option>
+      <option value="Sprog"> Datamatiker </option>
+      <option value="Sprog"> Serviceøkonom </option>
+      <option value="Sprog"> Bygningskonstruktør </option>
+    </select>
+
+    <label for="sprog" class="settings-label"> Må vi gerne bruge personlig data til at forbedre appen </label>
+    <select class="settings-options">
+      <option value="ja" selected> Ja </option>
+      <option value="Nej"> Nej </option>
+
+    </select>
+
+
+    <div class="close-settings ">
+
+      <a class="btn-logout " href="../../../index.html">
+        <p> Log ud </p>
+      </a>
+
+    </div>
+
+  </section>
+
   <div class="wrap">
 
     <section class="top-icons">
 
-        <div class="settings">
-            <a href="../indstillinger.html">
-                <p>Indstillinger</p>
-            </a>
-            <a href="../indstillinger.html" class="text-right">
-                <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-            </a>
-        </div>
+      <div class="settings">
+        <a href="#" onclick="openSettings()">
+          <p>Indstillinger</p>
+        </a>
+        <a href="#" class="text-right" onclick="openSettings()">
+          <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
 
-        <div class="back-arrow">
-            <a href="javascript:history.back()" class="text-right">
-                <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href="javascript:history.back()">
-                <p>Tilbage</p>
-            </a>
-        </div>
+      <div class="back-arrow">
+        <a href="javascript:history.back()" class="text-right">
+          <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="javascript:history.back()">
+          <p>Tilbage</p>
+        </a>
+      </div>
 
-        <div class="clear"></div>
+      <div class="clear"></div>
     </section>
 
     <main>
@@ -89,13 +152,16 @@
 
       <section class="bread-text">
         <p>
-          tekst til fredagsbar 2
+          Fredagsbar wohuu!
+          <br>
+          Fredag er ugens bedste dag for det betyder at weekenden står lige for døren! Kom ned og nyd en kold øl eller
+          ti sammen med dine studiekammerater og mød nye mennesker
 
         </p>
       </section>
 
       <section class="participants">
-        <p id="participantNumber">  </p>
+        <p id="participantNumber"> </p>
       </section>
 
     </main>
@@ -106,24 +172,24 @@
   <footer>
     <nav class="navbar">
 
-        <a href="../../../dine-begivenheder.html">
-            <i class="fa fa-home fa-2x" aria-hidden="true"></i>
-        </a>
+      <a href="../../../dine-begivenheder.html">
+        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+      </a>
 
-        <a href="../event-pages/skole-begivenheder.html">
-            <i class="fas fa-book fa-2x" aria-hidden="true"></i>
-        </a>
+      <a href="../event-pages/skole-begivenheder.html">
+        <i class="fas fa-book fa-2x" aria-hidden="true"></i>
+      </a>
 
-        <a href="../event-pages/fritids-begivenheder.html">
-            <i class="fa fa-user-friends fa-2x" aria-hidden="true"></i>
-        </a>
+      <a href="../event-pages/fritids-begivenheder.html">
+        <i class="fa fa-user-friends fa-2x" aria-hidden="true"></i>
+      </a>
 
-        <a href="../event-pages/fredagsbar-begivenheder.html">
-            <i class="fa fa-wine-glass-alt fa-2x" aria-hidden="true"></i>
-        </a>
+      <a href="../event-pages/fredagsbar-begivenheder.html">
+        <i class="fa fa-wine-glass-alt fa-2x" aria-hidden="true"></i>
+      </a>
 
     </nav>
-</footer>
+  </footer>
 
 </body>
 

@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1,  user-scalable=no">
     <meta name="description" content="Loginside til ucl's Social Planner. App til socialt samvær">
     <meta name="theme-color" content="#AAC6C7">
@@ -19,6 +18,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
+        <script src="../../js/settings.js" defer></script>
 
     <title>Fredagsbar</title>
 
@@ -26,15 +26,76 @@
 
 <body>
 
+    <section id="indstillinger">
+
+        <div id="close-indstillinger">
+          <h1 onclick="closeSettings()" >X</h1>
+        </div>
+    
+        <h2>Indstillinger</h2>
+        
+    
+        <label for="sprog" class="settings-label"> Vælg sprog </label>
+        <select class="settings-options" >
+          <option value="Sprog" selected disabled> Sprog </option>
+          <option value="Sprog"> Dansk </option>
+          <option value="Sprog"> English </option>
+        </select>
+    
+        <label for="sprog" class="settings-label"> Notifikationer </label>
+        <select class="settings-options" >
+          <option value="Sprog" selected disabled> Notifikationer </option>
+          <option value="Sprog"> Ja tak </option>
+          <option value="Sprog"> Nej tak </option>
+        </select>
+    
+        <label for="sprog" class="settings-label"> Sortering </label>
+        <select class="settings-options" >
+          <option value="Sprog" selected disabled> Sortering</option>
+          <option value="Sprog"> Sortér efter deltagelse </option>
+          <option value="Sprog"> Sortér efter dato </option>
+          <option value="Sprog"> Sortér efter deltagelse </option>
+          <option value="Sprog"> Sortér efter pris (stigende) </option>
+          <option value="Sprog"> Sortér efter pris (faldende) </option>
+        </select>
+    
+        <label for="sprog" class="settings-label"> Uddannelse </label>
+        <select class="settings-options" >
+          <option value="Sprog" selected disabled> Uddannelse</option>
+          <option value="Sprog"> MultimedieDesigner </option>
+          <option value="Sprog"> Sygeplejerske </option>
+          <option value="Sprog"> Datamatiker </option>
+          <option value="Sprog"> Serviceøkonom </option>
+          <option value="Sprog"> Bygningskonstruktør </option>
+        </select>
+    
+        <label for="sprog" class="settings-label"> Må vi gerne bruge personlig data til at forbedre appen </label>
+        <select class="settings-options" >
+          <option value="ja" selected> Ja </option>
+          <option value="Nej"> Nej </option>
+          
+        </select>
+    
+    
+        <div class="close-settings ">
+    
+          <a class="btn-logout " href="../../../index.html">
+            <p> Log ud </p>
+          </a>
+    
+        </div>
+    
+      </section>
+
     <div class="wrap">
 
         <section class="top-icons">
 
             <div class="settings">
-                <a href="../indstillinger.html">
+                <a href="#" onclick="openSettings()">
                     <p>Indstillinger</p>
                 </a>
-                <a href="../indstillinger.html" class="text-right">
+                <a href="#" class="text-right" onclick="openSettings()">
                     <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
@@ -50,6 +111,7 @@
 
             <div class="clear"></div>
         </section>
+
 
         <h1 class="begivenheder-text"> Fredagsbar </h1>
 
