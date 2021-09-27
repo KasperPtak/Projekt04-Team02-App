@@ -4,7 +4,7 @@
 
 var emails = [
     "Mariamail@gmail.com",
-    "test",
+    "Kaspermail@gmail.com",
     "Trinemail@gmail.com",
     "Nannamail@gmail.com"
 ]
@@ -28,7 +28,7 @@ function checklogin() {
 
                 case emails[0]:
                     alert(emails[0] + " er nu logget ind")
-                    window.location = "../views/event-pages/dine-Begivenheder.html";
+                    window.location = "./dine-begivenheder.html";
                     break;
                 case emails[1]:
                     alert(emails[1] + " er nu logget ind")
@@ -36,11 +36,11 @@ function checklogin() {
                     break;
                 case emails[2]:
                     alert(emails[2] + " er nu logget ind")
-                    window.location = "../views/dineBegivenheder.html";
+                    window.location = "./dine-begivenheder.html";
                     break;
                 case emails[3]:
                     alert(emails[3] + " er nu logget ind")
-                    window.location = "../views/dineBegivenheder.html";
+                    window.location = "./dine-begivenheder.html";
                     break;
 
                 default: alert("Din email er forkert");

@@ -13,10 +13,12 @@ function opret(){
     if( adgangskode.value.length == 0 && email.value.length == 0 && bekraeft.value.length == 0 && checkbox.checked == false){
         console.log("adganskode og email og bekræft er tom");
         stjerne.style.display = "block"
+        
     }
     else {
         stjerne.style.display = "none"
         alert("Du er nu oprettet")
+
     }
 }
 
